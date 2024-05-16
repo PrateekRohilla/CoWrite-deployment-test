@@ -12,7 +12,7 @@ mongoose.connect(`mongodb+srv://${user}:${password}@cowrite.bijunjq.mongodb.net/
 
 const io = require('socket.io')(3001, {
   cors: {
-    origin: 'http://localhost:5173',
+    origin: 'https://cowrite-deployment-test.onrender.com',
     methods: ['GET', 'POST']
   }
 })

@@ -31,7 +31,8 @@ const TextEditor = () => {
   const [quill, setQuill] = useState();
 
   useEffect(() => {
-    const s = io("http://localhost:3001");
+    //const s = io("http://localhost:3001");
+    const s = io("https://cowrite-deployment-test.onrender.com");
     setSocket(s);
 
     return () => {

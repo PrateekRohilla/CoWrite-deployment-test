@@ -12,7 +12,7 @@ mongoose.connect(`mongodb+srv://${user}:${password}@cowrite.bijunjq.mongodb.net/
 
 const io = require('socket.io')(3001, {
   cors: {
-    origin: 'https://cowrite-deployment-test.onrender.com',
+    origin: 'https://cowrite.netlify.app',
     methods: ['GET', 'POST']
   }
 })

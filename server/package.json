@@ -2,10 +2,11 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"No build steps required for the backend\""
+    "build": "echo \"No build steps required for the backend\"",
+    "start": "node server.js"
   },
   "author": "prateek-rohilla",
   "license": "ISC",
